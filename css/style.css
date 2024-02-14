@@ -1,0 +1,299 @@
+/*Added on 2080-10-23*/
+/*Process101 - araniko college computer science club*/
+/* global */
+/* PROBLEM IN IMPORT WAIT A SEC COMMENT IT */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleap is.com/css2?family=Gruppo&family=Major+Mono+Display&family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  
+}
+
+/* For firefox like cool scroll bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+i{
+  padding: 0.38em 0 0 8px;
+}
+/* css for matrix rain */
+
+body{
+  overflow: hidden;
+    background-color: #111110;
+
+    
+}
+.nav{
+  user-select: none;
+  font-family: "Protest Strike", sans-serif;
+
+}
+
+.main{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 255vh;
+  color: #fff;
+  
+}
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  /* matrix rain vanda mathi huney */
+  z-index: 1;
+  width: 100vw;
+  height: 120vh;
+}
+
+
+h2 {
+  text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+
+a {
+  font-size: large;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: #e0e0e0;
+}
+
+
+
+.section-1 {
+  font-family: "Protest Strike", sans-serif;
+  color: white;
+  margin-top: 8vh;
+  margin-bottom:3vh;
+  text-align: center;
+ margin-left: 10vh;
+
+}
+
+
+
+
+
+.section-2 {
+  font-family: "Protest Strike", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  color: #f1f1f1;
+  padding-top: 5vh;
+  padding-bottom: 0;
+  color: white;
+  padding-left: 5%;
+  width: 75vw;
+  
+ 
+}
+
+footer {
+  
+  background-color: #313131;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  padding: 3px;
+  width: auto;
+  padding-bottom: 2%;
+;
+ 
+}
+
+#events{
+  
+  position: absolute;
+  top: 120vh; 
+  left: 2vh;
+  bottom: 200vh;
+  width: 80vw;
+  height: 80vh;
+  padding: 0;
+  margin-left: 3%;
+  font-family: "Protest Strike", sans-serif;
+  
+
+
+  
+    
+  }
+
+#contacts{
+ 
+  font-weight: 100;
+  font-size: 12px;
+  position: absolute;
+  top: 200vh;
+  bottom: 255vh;
+  width: 100vw;
+  height: 55vh;
+  font-weight: 200;
+  font-family: "Protest Strike", sans-serif;
+
+  
+
+  }
+ #contacts div {
+  margin:0;
+  padding: 0;
+  width: 100vw;
+  margin: 0% 0% 6% 3%;
+ } 
+
+/*Event Part:*/
+
+.event_info{
+  padding: 0;
+  margin:0;
+  display: flex;
+  width: 80vw;
+  height: 30vh;
+  
+}
+
+
+.future{
+  
+  margin:10vh 20vw 0vh 5vw;
+  color:rgb(128, 240, 240);
+ 
+
+}
+
+
+.future,.past{
+  padding: 0vh 1vw 0vh 1vw;
+  width: 35vw;
+  margin-top: 20vh;
+  height: 18vh;
+  text-align: center;
+ border-radius: 10px;
+ background-color: #2121219f;
+ box-shadow: 5px 5px 0px 0px #373636a3;
+
+
+
+}
+.past{
+  padding: 0;
+  width: 35vw;
+ 
+}
+.countdown{
+  cursor: pointer;
+  
+}
+
+
+
+@media only screen and (max-width:700px) {
+
+
+  
+.section-2{
+  margin-left: 3vw;
+  padding-left: 0%;
+  width: 60vw;
+}
+.section-1,.countdown{
+  margin-left: 0vw;
+  width: 80vw;
+}
+.alert{
+  width: 67vw;
+}
+
+
+footer{
+  text-align:start;
+  padding: 0;
+}
+.main{
+  height: 275vh;
+}
+.container{
+  height: 170vh;
+}
+#events{
+    top: 170vh; 
+    bottom:230vh;
+    height: 60vh;
+}
+
+
+#contacts{
+ top:230vh;
+ bottom: 275vh;
+ height: 45vh;
+}
+.future,.past{
+ 
+    margin-top: 10vh;
+    height: 20vh;
+    width: 40vw;
+  }
+ 
+}
+
+@media only screen and (max-width:400px){
+  .future,.past{
+ 
+    width: 60vw;
+    height: 25vh;
+  }
+ 
+  .event_info{
+
+     height: 40vh;
+  }
+}
+
+
+
+
+
+
+
+
+
